@@ -1,0 +1,22 @@
+{% extends "myapp/base.html" %}
+
+{% block content %}
+    <div id="main-content">
+    <article id="add-entry">
+        <a href="{% url 'entry-create' %}"><button>Add Meal</button></a>
+    </article>
+    {% for entry in entry_list %}
+        <article id="entry-display">
+            <h2 class="{{ entry.date_created|date:'l' }}">
+                {{ entry.date_entered|date:'Y-m-d H:i' }}
+            </h2>
+            <h3>
+                <a href="{% url 'entry-detail' entry.id %}">
+                    {{ entry.title }}
+                </a>
+            </h3>
+        </article>
+    {% endfor %}
+    <div id="list-spacer"></div>
+    </div>
+{% endblock %}

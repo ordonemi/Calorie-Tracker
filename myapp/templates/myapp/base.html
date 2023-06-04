@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calorie Tracker</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/">Calorie Tracker</a>
+        </nav>
+    </header>
+
+    {% block content %}{% endblock %}
+
+    <footer></footer>
+</body>
+
+</html>

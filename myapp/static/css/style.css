@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Maven+Pro&family=Oswald:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: navy;
+    margin-bottom: 100px;
+}
+
+nav {
+    height: 100px;
+}
+
+nav a {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: navy;
+    height: 50px;
+    margin-top: 400px;
+}
+
+body {
+    font-size: 18px;
+}
+
+#main-content {
+    margin: 0 auto;
+    text-align: center;
+    border: solid white;
+    width: 1200px;
+    height: fit-content;
+    border-radius: 50px;
+    background-color: navy;
+    color: white;
+}
+
+#list-spacer {
+    height: 100px;
+}
+
+#add-entry button {
+    margin-top: 85px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: solid white;
+    background-color: navy;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: 700;
+}
+
+#add-entry button:hover {
+    background-color: white;
+    color: black
+}
+
+#entry-display h2 {
+    margin-bottom: 25px;
+    color: white;
+}
+
+#entry-display h3 {
+    margin-bottom: 25px;
+}
+
+#entry-display a {
+    text-decoration: none;
+    color: white;
+}
+
+#entry-display a:hover {
+    text-decoration: underline;
+}
+
+h2, h3 {
+    font-size: 24px;
+    margin: 0;
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+#details {
+    margin: 0 auto;
+    text-align: center;
+    border: solid white;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: navy;
+    color: white;
+}
+
+#details article {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#details h3 {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#details h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#details article p {
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5em;
+    width: 500px;
+    border: solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+#buttons a {
+    text-decoration: none;
+    background-color: navy;
+    color: white;
+    border: solid white;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+#buttons a:hover {
+    background-color: white;
+    color: black;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Form */
+#entry-form {
+    margin: 0 auto;
+    text-align: center;
+    border: solid black;
+    width: 1000px;
+    padding: 100px 100px;
+    border-radius: 15px;
+    color: white;
+    background-color: navy;
+}
+
+#entry-form button, textarea, input {
+    font-size: 24px;
+    padding: 10px 0;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+#entry-form input[type="text"], textarea {
+    width: 100%;
+    font-weight: 100;
+
+}
+
+#entry-form button, input[type="submit"] {
+    background-color: navy;
+    border: solid white;
+    border-radius: 15px;
+    padding: 10px 30px;
+    color: white;
+}
+
+#entry-form button:hover, input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#confirm-delete {
+    margin: 0 auto;
+    text-align: center;
+    border: solid white;
+    border-radius: 15px;
+    width: 800px;
+    background-color: navy;
+}
+
+#confirm-delete p {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 22px;
+    color: white;
+}
+
+#confirm-delete input {
+    margin-bottom: 20px;
+    border: solid white;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: navy;
+    color: white;
+}
+
+#confirm-delete input:hover {
+    background-color: white;
+    color: black;
+}
+
+#confirm-delete button {
+    margin-bottom: 50px;
+    font-size: 15px;
+    border: solid white;
+    border-radius: 15px;
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+}
+
+#confirm-delete button:hover {
+    background-color: white;
+    color: black;
+}
